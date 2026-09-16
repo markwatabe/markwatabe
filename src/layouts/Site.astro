@@ -1,0 +1,43 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Sidebar from '../components/Sidebar.astro';
+
+interface Props {
+	title: string;
+	description: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={title} description={description} />
+	</head>
+	<body>
+		<div class="page">
+			<Sidebar />
+			<main>
+				<slot />
+			</main>
+		</div>
+	</body>
+</html>
+<style>
+	.page {
+		display: grid;
+		grid-template-columns: 14rem minmax(0, 40rem);
+		gap: 4rem;
+		max-width: 64rem;
+		margin: 0 auto;
+		padding: 3rem 1.5rem 5rem;
+	}
+	@media (max-width: 720px) {
+		.page {
+			grid-template-columns: minmax(0, 1fr);
+			gap: 2rem;
+			padding: 1.5rem 1rem 4rem;
+		}
+	}
+</style>
