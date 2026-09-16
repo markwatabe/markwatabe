@@ -3,14 +3,15 @@ import type { CollectionEntry } from 'astro:content';
 import FormattedDate from '../components/FormattedDate.astro';
 import Site from './Site.astro';
 
-type Props = CollectionEntry<'blog'>['data'];
+type Props = CollectionEntry<'blog'>['data'] & { draft?: boolean };
 
-const { title, description, pubDate, updatedDate } = Astro.props;
+const { title, description, pubDate, updatedDate, draft = false } = Astro.props;
 ---
 
 <Site title={title} description={description}>
 	<article>
 		<header>
+			{draft && <p class="draft">Draft · not published</p>}
 			<h1>{title}</h1>
 			<p class="date">
 				<FormattedDate date={pubDate} />
@@ -39,5 +40,16 @@ const { title, description, pubDate, updatedDate } = Astro.props;
 		margin: 0;
 		color: var(--muted);
 		font-size: 0.9rem;
+	}
+	.draft {
+		display: inline-block;
+		margin: 0 0 0.75rem 0;
+		padding: 0.1em 0.5em;
+		border: 1px solid var(--muted);
+		border-radius: 3px;
+		font-size: 0.75rem;
+		color: var(--muted);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
 	}
 </style>

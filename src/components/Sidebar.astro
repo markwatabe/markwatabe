@@ -1,10 +1,8 @@
 ---
-import { getCollection } from 'astro:content';
 import { SITE_TITLE } from '../consts';
+import { getAllPosts } from '../lib/posts';
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+const posts = await getAllPosts();
 const pathname = Astro.url.pathname;
 ---
 
@@ -13,16 +11,14 @@ const pathname = Astro.url.pathname;
 	<nav aria-label="Posts">
 		<ul>
 			{
-				posts.map((post) => {
-					const href = `/blog/${post.id}/`;
-					return (
-						<li>
-							<a href={href} aria-current={pathname === href ? 'page' : undefined}>
-								{post.data.title}
-							</a>
-						</li>
-					);
-				})
+				posts.map((post) => (
+					<li>
+						<a href={post.href} aria-current={pathname === post.href ? 'page' : undefined}>
+							{post.data.title}
+						</a>
+						{post.draft && <span class="draft">draft</span>}
+					</li>
+				))
 			}
 		</ul>
 	</nav>
@@ -58,5 +54,16 @@ const pathname = Astro.url.pathname;
 	nav a[aria-current='page'] {
 		text-decoration: underline;
 		text-underline-offset: 0.2em;
+	}
+	.draft {
+		margin-left: 0.4em;
+		padding: 0 0.35em;
+		border: 1px solid var(--muted);
+		border-radius: 3px;
+		font-size: 0.7em;
+		color: var(--muted);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		vertical-align: middle;
 	}
 </style>
