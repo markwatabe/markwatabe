@@ -34,14 +34,18 @@ const { title, description, pubDate, updatedDate, draft = false } = Astro.props;
 		margin-bottom: 2rem;
 	}
 	h1 {
-		margin-bottom: 0.25rem;
+		margin-bottom: 1rem;
 	}
 	.date {
+		font-family: var(--font-heading);
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
 		margin: 0;
 		color: var(--muted);
-		font-size: 0.9rem;
+		font-size: 0.75rem;
 	}
 	.draft {
+		font-family: var(--font-heading);
 		display: inline-block;
 		margin: 0 0 0.75rem 0;
 		padding: 0.1em 0.5em;

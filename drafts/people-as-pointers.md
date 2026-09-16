@@ -1,97 +1,29 @@
 ---
-title: 'People as Pointers'
-description: 'Why historic figures end up standing in for whole concepts.'
-pubDate: 'Sep 16 2026'
+title: "People as Pointers"
+description: "Why historic figures end up standing in for whole concepts."
+pubDate: "Sep 16 2026"
 ---
 
-I remember having this thought in grade school after hearing one kid called another an Einstein sarcastically:
-
-"Historic figures come to represent key concepts because it is incredibly efficient to have a human as a pointer to these essential categories"
-
-🙄🙄🙄
-
-Ok, those weren't the exact words in my head, but I do remember trying to think through the various examples:
+A long time ago I heard someone sarcastically call another person Einstein, and I had this realization that many current or historic figures are mapped to key attributes/personas in the way that people talked. A few examples from what I heard on the playground growing up:
 
 Evil - Hitler
 Genius - Einstein
-Benevolence - Mother Teresa
 Artist - Picasso
+Athlete - Jordan
+Writer - Shakespeare
+Inventor - Edison
+Polymath - Da Vinci
 
-<!-- ============================================================
-     Candidates below this line. Keep, cut, or reorder. The ones
-     that survive as plain everyday usage ("he's a real X") are
-     probably the strongest.
-     ============================================================ -->
+You can ask AI for a longer list and the extent to which you agree/disagree is also an indicator of the overlap of your life experience with the zeitgest as present in the training data. Why does this happen? Will someone always feel the void, or does the mapping only occur when someone is truly exemplar and known within a given culture?
 
-## Candidates
+Recently I've noticed some meme images are a related phenomena, and it can be very telling what image is "chosen".
 
-### Real historical figures
+<image of public/images/the-future-world-if-meme-template-regular-b961e1b0.webp>
 
-- Betrayal - Judas (Benedict Arnold if you want the American version)
-- Nonviolence - Gandhi
-- Composer / prodigy - Mozart
-- Inventor - Edison
-- Polymath / Renaissance man - Da Vinci
-- Writer - Shakespeare
-- Philosopher - Socrates
-- Physics / gravity - Newton
-- Conqueror - Alexander the Great, Napoleon
-- Brutality - Genghis Khan, Attila the Hun
-- Tyrant - Nero, Caligula
-- Mass murder by ideology - Stalin, Pol Pot
-- Cunning - Machiavelli
-- Cruelty for pleasure - de Sade
-- Seducer - Casanova
-- Nurse / caregiver - Florence Nightingale
-- Civil rights - Martin Luther King Jr.
-- Honesty - Lincoln ("Honest Abe")
-- Courage - Joan of Arc
-- Explorer - Columbus, Magellan
-- Wealth - Rockefeller, Croesus ("rich as Croesus")
-- Persecuted truth-teller - Galileo
-- Orator - Churchill, Cicero
-- Athlete - Michael Jordan ("the Michael Jordan of X")
-- Tech visionary - Steve Jobs
-- Traitor-collaborator - Quisling
+I won't get into a DEI based critique as that really isn't my thing, but a single dude walking his robo dog and about to get into his car for one is the kind of hyper consumer and no accountability type future one thinks they want. What about human connection, or a representation of anykind of activity???
 
-### Mythical, biblical, or fictional
+This is a long winded intro to get to this point:
 
-Worth a note in the essay: the pointer works just as well when the
-person never existed, which says something about the mechanism.
+When people say, "if AI is so amazing, why has nothing changed yet?", this image tells you why. Humans don't know what utopia + AI looks like
 
-- Strength - Hercules, Samson
-- Beauty - Helen of Troy, Adonis
-- Wisdom - Solomon
-- Patience - Job
-- Doubt - Thomas ("doubting Thomas")
-- Vanity - Narcissus
-- Greed that backfires - Midas
-- Hubris - Icarus
-- Miser - Scrooge
-- Romantic - Romeo
-- Detective - Sherlock Holmes
-- Tilting at windmills - Don Quixote
-- Two-faced - Janus
-
-### Pointers that hardened into adjectives
-
-Possibly the strongest evidence for the thesis. Once the person becomes
-a word, the pointer has fully replaced the definition.
-
-- Kafkaesque, Orwellian, Dickensian, Byronic
-- Machiavellian, Napoleonic, Freudian, Platonic
-- Sadistic (de Sade), masochistic (Sacher-Masoch)
-- Quixotic, draconian (Draco), spartan, stoic
-- Boycott (Captain Boycott), gerrymander (Elbridge Gerry)
-- "An Einstein", "a Hitler", "a Judas", "a Casanova"
-
-### Gaps
-
-Concepts that don't seem to have a person attached. Might be interesting
-to ask why.
-
-- Loyalty
-- Humility
-- Laziness
-- Boredom
-- Competence (as opposed to genius)
+add more here.
